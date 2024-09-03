@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soumyajit Ojha</title>
+    <script src="https://kit.fontawesome.com/896d9fd5e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Python Software Developer</p>
+                <h1>Hi, I'm <span>Soumyajit Ojha</span><br>from Odisha.</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/myimg.JPG" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo dolore excepturi molestias rerum
+                        voluptatem temporibus nam eligendi nulla?</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Tech Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('educations')">Educations</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <!-- For-Skills -->
+                        <ul>
+                            <li><span>Python</span><br>Python language core and advance.</li>
+                            <li><span>Django</span><br>Develop microservicess web application.</li>
+                            <li><span>Django REST framework</span><br>Rapid API developement for webapplications. </li>
+                            <li><span>UI</span><br>It includes HTML, CSS and basics of JavaScript.</li>
+                            <li><span>Version Control Ststem</span><br>Familiar with <b>git</b> and <b>github</b>  for controling the versions of projects</li>
+                            <li><span>Database </span><br> MySQL database for managing the data. </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <!-- For-Experience -->
+                        <ul>
+                            <li><span>Python Developer Intern</span><br>Python Web Developer intern at Aaramit solutions
+                                for 6 months.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="educations">
+                        <!-- For-Educations -->
+                        <ul>
+                            <li><span>Python Full-Stack Developer</span><br>6 Months python-fullstack course at NTH
+                                institute.</li>
+                            <li><span>Graduation</span><br>B.Sc. graduate in 2022 with Physics Honors.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--   -------------------------Servicess-Section-------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <!-- space for font-awasome -->
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Dvelopement</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid culpa incidunt quasi? Iste,
+                        nostrum inventore harum placeat obcaecati aperiam cupiditate?</p>
+                    <a href="#">read more...</a>
+                </div>
+                <div>
+                    <!-- space for font-awasome -->
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web API Dvelopement</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid culpa incidunt quasi? Iste,
+                        nostrum inventore harum placeat obcaecati aperiam cupiditate?</p>
+                    <a href="#">read more...</a>
+                </div>
+                <div>
+                    <!-- space for font-awasome -->
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h2>Web Scraping</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid culpa incidunt quasi? Iste,
+                        nostrum inventore harum placeat obcaecati aperiam cupiditate?</p>
+                    <a href="#">read more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------Portfolio-Section------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Web-Development.jpg">
+                    <div class="layer">
+                        <h3>Property Sales Management</h3>
+                        <p>This website helps connect land seller and buyer. No money waste through brocker.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/API-Development.jpg">
+                    <div class="layer">
+                        <h3>E-commerce API</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, nobis.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web-scraping.webp">
+                    <div class="layer">
+                        <h3>Effective price search</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laborum ipsum dolorem voluptatum
+                            quaerat?</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more...</a>
+        </div>
+    </div>
+<!-- --------------------CONTACT-SECTION------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>  soumyajitojha@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9090780371</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/soumyajitojha-6315b527b"  target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/soumyajit-ojha" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Soumyajit_ojha.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Email id" required>
+                        <textarea name="Message" rows="6"placeholder="Your message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; Copyright 2024 Soumyajit-Ojha portfolio</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        };
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
